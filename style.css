@@ -80,7 +80,7 @@ button {
     white-space: pre-wrap;
 }
 
-.hero-main-content-button {
+.hero-main-content-button, .call-area-button {
     max-width: fit-content;
     background-color: #3882f6;
     border-radius: 8px;
@@ -149,7 +149,7 @@ button {
     font-size: 36px;
     font-style: italic;
     font-weight: lighter;
-    max-width: 60%;
+    max-width: 55%;
 }
 
 .quotation-quoter {
@@ -164,4 +164,27 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 96px 0;
+}
+
+.call-area {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex: 0 1 70%;
+    background-color: #3882f6;
+    border-radius: 8px;
+    color: #f9faf8;
+    font-size: 18px;
+    padding: 40px 0;
+}
+
+.call-area-text-title {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.call-area-button {
+    border: 2px solid #f9faf8;
+    font-weight: 900;
 }
