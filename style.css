@@ -67,7 +67,7 @@ button {
     margin: 64px 0;
 }
 
-.hero-main-content {
+.hero-main-content, .information, .information-gallery-item {
     display: flex;
     flex-flow: column wrap;
 }
@@ -92,4 +92,45 @@ button {
     flex: 1 1 50%;
     max-width: 50%;
     max-height: 50%;
+}
+
+.information {
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+    color: #1f2937;
+    gap: 32px;
+}
+
+.information-title {
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.information-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+.information-gallery-item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex: 0 1 150px;
+    gap: 8px;
+}
+
+.information-gallery-item-image {
+    border: 3px solid #3882f6;
+    width: 128px;
+    height: 128px;
+    border-radius: 8px;
+}
+
+.information-gallery-item-text {
+    text-align: center;
 }
