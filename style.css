@@ -148,13 +148,13 @@ button {
 .quotation-quote {
     font-size: 36px;
     font-style: italic;
-    font-weight: lighter;
+    font-weight: 300;
     max-width: 55%;
 }
 
 .quotation-quoter {
     font-weight: 900;
-    font-size: 18px;
+    font-size: 24px;
     font-style: normal;
     text-align: right;
     padding-right: 32px;
@@ -176,7 +176,7 @@ button {
     border-radius: 8px;
     color: #f9faf8;
     font-size: 18px;
-    padding: 40px 0;
+    padding: 40px 16px;
 }
 
 .call-area-text-title {
@@ -187,4 +187,6 @@ button {
 .call-area-button {
     border: 2px solid #f9faf8;
     font-weight: 900;
+    font-size: 18px;
+    box-sizing: content-box;
 }
